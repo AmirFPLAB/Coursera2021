@@ -1,0 +1,49 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+}
+
+.nav-name {
+    color: whitesmoke !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.main {
+    background-color: rgb(3, 80, 180);
+    height: 52px;
+}
+
+.nav-li {
+    background-color: crimson;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 1px;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    color: crimson;
+}
+
+.food {
+    background-color: rgb(98, 95, 100);
+    padding: 7px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.foodname {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media(min-width:576px) {
+    .mobile {
+        display: none;
+    }
+}
